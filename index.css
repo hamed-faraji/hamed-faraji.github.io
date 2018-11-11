@@ -3,6 +3,7 @@ body{
     height: 100%;
     width: 100%;
     min-width: 950px;
+    max-width: 2000px;
     margin: auto;
 }
 .background-image{
@@ -11,6 +12,7 @@ body{
     height: 100%;
     width: 100%;
     min-width: 950px;
+    max-width: 2000px;
     background-size: cover;
 }
 #flex-container {
@@ -23,9 +25,10 @@ body{
 
 .flex-item {
     border-radius: 10px;
-    margin: 10px;
-    height: 500px;
+    margin: 20px;
+    height: 700px;
     position: relative;
+    border: 20px blue;
 }
 
 #flex-container-image {
@@ -60,7 +63,7 @@ body{
     margin-bottom: 100px ;
     position: relative;
 }
-a {
+selector {
     height: 45px;
     width: 350px;
     font-weight: bold;
@@ -79,6 +82,11 @@ a {
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
+}
+.text-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
 }
 
 .circle {
