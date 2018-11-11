@@ -1,7 +1,7 @@
 body{
     background-color: gray;
     height: 100%;
-    width: 1450px;
+    width: 950px;
     align-items: center;
     justify-items: center;
     margin: auto;
@@ -10,7 +10,7 @@ body{
     background-image: url("Images/78ruLE9-full-black-wallpaper.jpg");
     position: fixed;
     height: 100%;
-    width: 1450px;
+    width: 950px;
 }
 #flex-container {
     display: flex;
@@ -62,7 +62,7 @@ body{
     position: relative;
 }
 a {
-    height: 30px;
+    height: 45px;
     width: 350px;
     font-weight: bold;
     font-size: 22px;
