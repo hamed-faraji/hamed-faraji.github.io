@@ -17,7 +17,7 @@ body{
 }
 #flex-container {
     display: flex;
-    height: 3300px;
+    height: 5500px;
     flex-direction: column;
     align-items: stretch;
     position: relative;
@@ -25,10 +25,11 @@ body{
 
 .flex-item {
     border-radius: 10px;
-    margin: 20px;
-    height: 700px;
+    margin: 2% 10% 2% 10%;
+    height: 800px;
     position: relative;
-    border: 20px blue;
+    border: 10px double gold;
+
 }
 
 #flex-container-image {
@@ -77,14 +78,14 @@ selector {
     position: relative;
 }
 .text-back {
-    background-color: black;
-    border-radius: 50px;
+    background-color: cornflowerblue;
+    border-radius: 30px;
     margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .text-margin {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 10%;
     margin-bottom: 0;
 }
@@ -101,4 +102,18 @@ img {
     margin-top: 7.5px;
     margin-left: 7.5px;
     position: relative;
+}
+blue-full {
+    padding: 10px 50px;
+    background-color: cornflowerblue;
+    position: relative;
+    margin-top: 20px;
+}
+
+white-empty{
+     padding: 10px 50px;
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+
 }
