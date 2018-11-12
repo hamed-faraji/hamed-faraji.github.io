@@ -26,7 +26,7 @@ body{
 .flex-item {
     border-radius: 10px;
     margin: 2% 10% 2% 10%;
-    height: 810px;
+    height: 700px;
     position: relative;
     border: 10px double gold;
 
@@ -37,8 +37,16 @@ body{
     height: 2300px;
     position: relative;
     border: 10px double gold;
-
 }
+
+.flex-item-bigger-2 {
+    border-radius: 10px;
+    margin: 2% 10% 2% 10%;
+    height: 1050px;
+    position: relative;
+    border: 10px double gold;
+}
+
 
 #flex-container-image {
     display: flex;
