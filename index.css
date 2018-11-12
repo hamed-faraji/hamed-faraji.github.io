@@ -85,7 +85,7 @@ selector {
     border-radius: 30px;
     margin-top: 2%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 0;
 }
 .text-margin {
     margin-left: 5%;
