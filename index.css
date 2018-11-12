@@ -34,7 +34,7 @@ body{
 .flex-item-bigger {
     border-radius: 10px;
     margin: 2% 10% 2% 10%;
-    height: 2200px;
+    height: 2300px;
     position: relative;
     border: 10px double gold;
 
@@ -97,8 +97,8 @@ selector {
     background-color: cornflowerblue;
     border-radius: 20px;
     margin-top: 2%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .text-margin {
     margin-left: 5%;
