@@ -28,6 +28,7 @@ body{
     position: relative;
     background-color: gold;
     object-fit: cover;
+    word-wrap: break-word;
 }
 
 #flex-container-image {
