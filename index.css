@@ -24,6 +24,11 @@ body{
     padding: 1% 1% 1% 1%;
 
 }
+.flex-item-footer {
+    position: relative;
+    background-color: gold;
+    object-fit: cover;
+}
 
 #flex-container-image {
     display: flex;
@@ -67,19 +72,7 @@ body{
     margin-bottom: 100px ;
     position: relative;
 }
-selector {
-    height: 45px;
-    width: 350px;
-    font-weight: bold;
-    font-size: 22px;
-    background-color: gold;
-    color: black;
-    padding: 5px 15px;
-    margin: 10px ;
-    border-radius: 50px;
-    text-align: center;
-    position: relative;
-}
+
 .text-back {
     background-color: cornflowerblue;
     border-radius: 30px;
@@ -118,4 +111,18 @@ white-empty{
     background-color: white;
     position: relative;
     margin-top: 20px;
+}
+
+selector {
+    height: 45px;
+    width: 350px;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: gold;
+    color: black;
+    padding: 5px 15px;
+    margin: 10px ;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
 }
