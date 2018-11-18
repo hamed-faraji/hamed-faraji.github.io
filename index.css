@@ -161,6 +161,7 @@ selector {
     border-radius: 50px;
     text-align: center;
     position: relative;
+    object-fit: cover;
 }
 
 selector a{
@@ -238,66 +239,72 @@ selector a{
         margin-bottom: 8px ;
         margin-top: 8px;
         height: 40px;
+        width: 50%;
+        position: static;
     }
 }
 
 @media  screen and (max-width: 300px) {
 
     p.typeOne {
-        font-size:75%;
+        font-size:50%;
     }
 
     p.typeTow {
-        font-size:65%;
+        font-size:40%;
     }
 
     p.typeThree {
-        font-size:60%;
+        font-size:38%;
     }
 
     p.typeFour{
-        font-size: 55%;
+        font-size: 35%;
     }
 
     span.typeOne{
-        font-size:70%;
+        font-size:45%;
     }
 
     span.typeTow{
-        font-size:55%;
+        font-size:35%;
     }
 
     .circle {
-        width: 50px;
-        height: 50px;
-        margin: 10px;
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+        background: cornflowerblue;
     }
 
     img.backArrow {
         margin-top: 1px;
         margin-left: 1px;
-        height: 38px;
-        width: 38px;
+        pading: 0 0 0 0;
+        height: 20px;
+        width: 20px;
     }
 
     blue-full {
-        padding: 1.5px 4.5px;
+        padding: 0.2px 4.5px;
         margin-top: 10px;
+
     }
 
     white-empty{
-        padding: 1.5px 4.5px;
+        padding: 0.2px 4.5px;
         margin-top: 10px;
     }
 
     selector {
-        font-size: 8px;
+        font-size: 30%;
         margin: 0.5px 0.5px 0.5px 0.5px;
         height: 10px;
+        width: 50%;
+        position: static;
     }
-
-    .flex-item {
-
+    .flex-item{
+        flex-direction: column;
     }
 
     #flex-container-image {
